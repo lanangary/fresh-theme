@@ -1,1 +1,8 @@
-First Commmit
+{
+    "http-basic": {
+        "connect.advancedcustomfields.com": {
+            "username": "b3JkZXJfaWQ9NTQzMDd8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA0LTE3IDAzOjAwOjA1",
+            "password": "https://theme.local.box/"
+        }
+    }
+}
