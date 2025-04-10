@@ -256,7 +256,7 @@ RewriteRule . /index.php [L]
 
                     // Activate essential plugins
                     $io->write('<info>[INFO]</info> Activating plugins');
-                    exec('wp plugin activate badrock');
+                    exec('wp plugin activate juicy');
                     exec('composer dump-autoload');
                     exec('wp plugin activate wp-h5bp-htaccess');
                     exec('wp plugin activate classic-editor');
@@ -264,7 +264,7 @@ RewriteRule . /index.php [L]
                     exec('wp plugin activate gravityformscli');
                     exec('wp plugin activate gravityformssendgrid');
                     exec('wp plugin activate gravity-forms-acf-field');
-                    exec('wp option set badrock_settings \'{"enable_gravity_forms_hooks": "1"}\' --format=json');
+                    exec('wp option set juicy_settings \'{"enable_gravity_forms_hooks": "1"}\' --format=json');
                     exec('wp option set rg_gforms_captcha_type "invisible"');
                     exec('wp option set rg_gforms_currency "AUD"');
 

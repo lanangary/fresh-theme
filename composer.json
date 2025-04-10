@@ -101,7 +101,10 @@
         "post-install-cmd": [
             "WordpressBase\\Installers\\Installer::postInstall",
             "WordpressBase\\Installers\\Installer::checkHtaccess",
-            "php scripts/rename-plugin.php"
+            "php scripts/set-theme-name.php",
+            "php scripts/rename-plugin.php",
+            "php scripts/rename-theme.php",
+            "php scripts/rename-theme-from-simple.php"
         ],
         "post-update-cmd": [
             "php scripts/rename-plugin.php"

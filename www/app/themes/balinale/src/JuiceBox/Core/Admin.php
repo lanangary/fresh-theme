@@ -24,7 +24,7 @@ class Admin
         'wp-exporter/index.php',
         'favicon-by-realfavicongenerator/favicon-by-realfavicongenerator.php',
         'wp-security-audit-log/wp-security-audit-log.php',
-        'badrock/badrock.php',
+        'juicy/juicy.php',
         'soil/soil.php',
     );
 
